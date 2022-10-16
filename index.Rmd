@@ -1,8 +1,8 @@
 ---
 title: "Poverty and Inequality Platform Methodology Handbook"
 zotero: "PovcalNet Team"
-url: "https://povcalnet-team.github.io/Methodology"
-github-repo: PovcalNet-Team/Methodology
+url: "https://worldbank.github.io/PIP-Methodology-2022-09"
+github-repo: worldbank/PIP-Methodology-2022-09
 site: "bookdown::bookdown_site"
 output:
   bookdown::gitbook:
@@ -39,9 +39,9 @@ text-align: justify}
 knitr::opts_chunk$set(echo = TRUE) 
 ```
 
-*Suggested citation: World Bank. 2022. "Poverty and Inequality Platform
-Methodology Handbook." Edition 2022-04. Available at
-[<https://worldbank.github.io/PIP-Methodology-2022-04>](https://worldbank.github.io/PIP-Methodology/index.html).*
+Suggested citation: World Bank. 2022. "Poverty and Inequality Platform
+Methodology Handbook." Edition 2022-09. Available at
+[<https://worldbank.github.io/PIP-Methodology-2022-09>](https://worldbank.github.io/PIP-Methodology-2022-09).*
 
 # Non-technical summary {.unnumbered}
 
