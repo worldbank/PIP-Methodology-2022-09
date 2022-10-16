@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Revisions made to this handbook | Poverty and Inequality Platform Methodology Handbook</title>
+  <meta name="description" content="Chapter 6 Revisions made to this handbook | Poverty and Inequality Platform Methodology Handbook" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Revisions made to this handbook | Poverty and Inequality Platform Methodology Handbook" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://povcalnet-team.github.io/Methodology" />
+  
+  
+  <meta name="github-repo" content="PovcalNet-Team/Methodology" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Revisions made to this handbook | Poverty and Inequality Platform Methodology Handbook" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="lineupestimates.html"/>
+<link rel="next" href="references.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.8/grViz.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html#non-technical-summary" id="toc-non-technical-summary">Non-technical summary</a>
+<ul>
+<li><a href="index.html#step-1-acquiring-household-survey-data" id="toc-step-1-acquiring-household-survey-data">Step 1: <span>Acquiring household survey data</span></a></li>
+<li><a href="index.html#step-2-constructing-welfare-aggregates" id="toc-step-2-constructing-welfare-aggregates">Step 2: <span>Constructing welfare aggregates</span></a></li>
+<li><a href="index.html#step-3-converting-welfare-aggregates" id="toc-step-3-converting-welfare-aggregates">Step 3: <span>Converting welfare aggregates</span></a></li>
+<li><a href="index.html#step-4-calculating-survey-estimates-of-poverty-and-inequality" id="toc-step-4-calculating-survey-estimates-of-poverty-and-inequality">Step 4: <span>Calculating survey estimates of poverty and inequality</span></a></li>
+<li><a href="index.html#step-5-calculating-global-and-regional-poverty" id="toc-step-5-calculating-global-and-regional-poverty">Step 5: <span>Calculating global and regional poverty</span></a></li>
+</ul></li>
+<li><a href="acquiring.html#acquiring" id="toc-acquiring"><span class="toc-section-number">1</span> Acquiring household survey data</a>
+<ul>
+<li><a href="acquiring.html#selection" id="toc-selection"><span class="toc-section-number">1.1</span> Selection criteria and source of data</a></li>
+<li><a href="acquiring.html#how-data-are-obtained" id="toc-how-data-are-obtained"><span class="toc-section-number">1.2</span> How data are obtained</a></li>
+<li><a href="acquiring.html#representativeness" id="toc-representativeness"><span class="toc-section-number">1.3</span> Representativeness</a></li>
+<li><a href="acquiring.html#grouped" id="toc-grouped"><span class="toc-section-number">1.4</span> Grouped vs. unit record data</a></li>
+<li><a href="acquiring.html#imputed" id="toc-imputed"><span class="toc-section-number">1.5</span> Multiple imputed micro data</a></li>
+</ul></li>
+<li><a href="welfareaggregate.html#welfareaggregate" id="toc-welfareaggregate"><span class="toc-section-number">2</span> Constructing welfare aggregates</a>
+<ul>
+<li><a href="welfareaggregate.html#incomeorconsumption" id="toc-incomeorconsumption"><span class="toc-section-number">2.1</span> Income or consumption</a></li>
+<li><a href="welfareaggregate.html#questionnaire" id="toc-questionnaire"><span class="toc-section-number">2.2</span> Questionnaire design</a></li>
+<li><a href="welfareaggregate.html#imputedrent" id="toc-imputedrent"><span class="toc-section-number">2.3</span> Imputed rent</a></li>
+<li><a href="welfareaggregate.html#spatialtemporal" id="toc-spatialtemporal"><span class="toc-section-number">2.4</span> Within-survey spatial/temporal deflation</a>
+<ul>
+<li><a href="welfareaggregate.html#spatial-deflation" id="toc-spatial-deflation"><span class="toc-section-number">2.4.1</span> Spatial deflation</a></li>
+<li><a href="welfareaggregate.html#temporal-deflation" id="toc-temporal-deflation"><span class="toc-section-number">2.4.2</span> Temporal deflation</a></li>
+</ul></li>
+<li><a href="welfareaggregate.html#equivalence-scale" id="toc-equivalence-scale"><span class="toc-section-number">2.5</span> Equivalence scale</a></li>
+<li><a href="welfareaggregate.html#tgd" id="toc-tgd"><span class="toc-section-number">2.6</span> Treatment of grouped data</a></li>
+<li><a href="welfareaggregate.html#comparability" id="toc-comparability"><span class="toc-section-number">2.7</span> Comparability of estimates</a></li>
+</ul></li>
+<li><a href="convert.html#convert" id="toc-convert"><span class="toc-section-number">3</span> Converting welfare aggregates</a>
+<ul>
+<li><a href="convert.html#CPIs" id="toc-CPIs"><span class="toc-section-number">3.1</span> Consumer Price Indices (CPIs)</a></li>
+<li><a href="convert.html#PPPs" id="toc-PPPs"><span class="toc-section-number">3.2</span> Purchasing Power Parities (PPPs)</a></li>
+<li><a href="convert.html#IPL" id="toc-IPL"><span class="toc-section-number">3.3</span> Derivation of the international poverty line</a></li>
+<li><a href="convert.html#derivation-of-other-global-poverty-lines" id="toc-derivation-of-other-global-poverty-lines"><span class="toc-section-number">3.4</span> Derivation of other global poverty lines</a></li>
+</ul></li>
+<li><a href="surveyestimates.html#surveyestimates" id="toc-surveyestimates"><span class="toc-section-number">4</span> Calculating survey estimates of poverty and inequality</a>
+<ul>
+<li><a href="surveyestimates.html#monetarypoverty" id="toc-monetarypoverty"><span class="toc-section-number">4.1</span> Monetary poverty measures</a></li>
+<li><a href="surveyestimates.html#mpm" id="toc-mpm"><span class="toc-section-number">4.2</span> Multidimensional Poverty Measure</a></li>
+<li><a href="surveyestimates.html#inequality" id="toc-inequality"><span class="toc-section-number">4.3</span> Inequality measures</a></li>
+<li><a href="surveyestimates.html#dist" id="toc-dist"><span class="toc-section-number">4.4</span> Other distributional statistics</a></li>
+</ul></li>
+<li><a href="lineupestimates.html#lineupestimates" id="toc-lineupestimates"><span class="toc-section-number">5</span> Calculating global and regional estimates</a>
+<ul>
+<li><a href="lineupestimates.html#extrapolations" id="toc-extrapolations"><span class="toc-section-number">5.1</span> Extrapolations</a></li>
+<li><a href="lineupestimates.html#interpolations" id="toc-interpolations"><span class="toc-section-number">5.2</span> Interpolations</a>
+<ul>
+<li><a href="lineupestimates.html#same-direction-interpolation" id="toc-same-direction-interpolation"><span class="toc-section-number">5.2.1</span> “Same direction” interpolation</a></li>
+<li><a href="lineupestimates.html#diverging-directions-interpolation" id="toc-diverging-directions-interpolation"><span class="toc-section-number">5.2.2</span> “Diverging directions” interpolation</a></li>
+</ul></li>
+<li><a href="lineupestimates.html#nationalaccounts" id="toc-nationalaccounts"><span class="toc-section-number">5.3</span> National accounts data</a></li>
+<li><a href="lineupestimates.html#inccon" id="toc-inccon"><span class="toc-section-number">5.4</span> Choosing between consumption and income estimates</a></li>
+<li><a href="lineupestimates.html#regionsandcountries" id="toc-regionsandcountries"><span class="toc-section-number">5.5</span> Regional classification</a></li>
+<li><a href="lineupestimates.html#population" id="toc-population"><span class="toc-section-number">5.6</span> Population</a></li>
+<li><a href="lineupestimates.html#nodata" id="toc-nodata"><span class="toc-section-number">5.7</span> Treatment of countries without any poverty data</a></li>
+<li><a href="lineupestimates.html#coverage" id="toc-coverage"><span class="toc-section-number">5.8</span> Coverage rule</a></li>
+</ul></li>
+<li><a href="revisions.html#revisions" id="toc-revisions"><span class="toc-section-number">6</span> Revisions made to this handbook</a>
+<ul>
+<li><a href="revisions.html#april" id="toc-april"><span class="toc-section-number">6.1</span> 2022 April</a></li>
+<li><a href="revisions.html#may" id="toc-may"><span class="toc-section-number">6.2</span> 2022 May</a></li>
+<li><a href="revisions.html#september" id="toc-september"><span class="toc-section-number">6.3</span> 2022 September</a></li>
+</ul></li>
+<li><a href="references.html#references" id="toc-references">References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Poverty and Inequality Platform Methodology Handbook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="revisions" class="section level1" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Revisions made to this handbook</h1>
+<p>As the methodology underlying the global poverty counts is updated, revisions are made to this handbook. Below is a description of the revisions that have taken place.</p>
+<div id="april" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> 2022 April</h2>
+<p>This was the first version published of the handbook. It is available <a href="https://worldbank.github.io/PIP-Methodology-2022-04">here</a>.</p>
+</div>
+<div id="may" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> 2022 May</h2>
+<p>The subsection on national accounts data was updated. National accounts data for Syria were made available through the World Development Indicators, so extrapolations for the country were no longer based on a special series drawn from academic papers. It is available <a href="https://worldbank.github.io/PIP-Methodology-2022-05">here</a>.</p>
+</div>
+<div id="september" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> 2022 September</h2>
+<p>The handbook was adjusted based on the switch from 2011 PPPs to 2017 PPPs and the resultant change in the international poverty line. This particularly concerns the sections on purchasing power parities and derivation of the international poverty line and other global poverty lines. In addition, the handbook was updated to account for new Indian data based on the CPHS. In particular a paragraph was added to the subsection on “Selection criteria and source of data” to reflect the new Indian data and the paragraph on the exceptional extrapolation rule for India was removed as it is no longer applied. Finally, the section on the comparability of estimates was revised to reflect updates in how the comparability data can be accessed. The September 2022 version of the handbook is the latest version.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="lineupestimates.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
