@@ -38,7 +38,7 @@ The number of spaces/indents matter so don't change that!
 2. Render that book following the guidelines above
 
 
-3. Make all the updates to the handbook necessary and render that book following the guideliens above. 
+3. Make all the updates to the handbook necessary and render that book following the guidelines above. 
 
 
 4. Create a new repository called PIP-Methodology-YYYY-MM where YYYY-MM is the year and month of the present update, i.e. most likely the year and month you are currently in. You need to have the rights to create a new repo on behalf of the Bank. 

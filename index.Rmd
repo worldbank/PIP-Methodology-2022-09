@@ -6,6 +6,9 @@ github-repo: worldbank/PIP-Methodology-2022-09
 site: "bookdown::bookdown_site"
 output:
   bookdown::gitbook:
+    includes:
+      before_body: files/open_review_block.html
+    css: [css/style.css]    
     config:
       search: yes
 documentclass: book 
